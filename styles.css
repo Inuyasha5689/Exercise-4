@@ -13,3 +13,23 @@
   background-color: gray;
   width: 50px !important;
 }
+
+.salmon {
+  background-color: salmon;
+}
+
+.border {
+  border: 5px solid green;
+}
+
+.enlarge {
+  width: 300px;
+}
+
+.demo {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+}
