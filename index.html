@@ -15,15 +15,15 @@
   <!-- 3) Let the user enter a class (create some example classes) and attach it -->
   <div>
     <input type="text" v-model="class3">
-    <div :class="[{visible: true}, class3]"></div>
+    <div :class="[visible, class3]"></div>
   </div>
   <hr>
 
   <!-- 4) Let the user enter a class and enter true/ false for another class (create some example classes) and attach the classes -->
   <div>
     <input type="text" v-model="isVisible">
-    <input type="text" v-model="class42">
-    <div :class="[{visible: isVisible}, class42]"></div>
+    <input type="text" v-model="class4">
+    <div :class="[{visible: isVisible}, class4]"></div>
   </div>
   <hr>
 

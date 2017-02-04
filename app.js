@@ -3,8 +3,7 @@ new Vue({
   data: {
     class1: 'shrink',
     class3: 'salmon',
-    class41: true,
-    class42: '',
+    class4: '',
     counter: 0,
     color: 'orange',
     width: 100,
@@ -13,7 +12,8 @@ new Vue({
       width: '100px',
       height: '150px',
       backgroundColor: 'gray'
-    }
+    },
+    visible: 'visible'
   },
   methods: {
     startEffect: function() {
