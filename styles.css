@@ -23,7 +23,12 @@
 }
 
 .enlarge {
-  width: 300px;
+  width: 300px !important;
+}
+
+.visible {
+  width: 100px;
+  height: 50px;
 }
 
 .demo {
