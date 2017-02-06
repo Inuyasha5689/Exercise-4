@@ -29,7 +29,6 @@ new Vue({
     },
     startProgress: function() {
       var vm = this;
-      console.log('hello');
 
       if(vm.counter < 9)
       var  progress = setInterval(function () {
